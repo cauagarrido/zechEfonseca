@@ -1,0 +1,2 @@
+/* the two solar icons the page requests from api.iconify.design, preloaded for iconify-icon */
+window.IconifyPreload = [{"prefix":"solar","width":24,"height":24,"icons":{"hamburger-menu-linear":{"body":"<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"1.5\"><path d=\"M20 7L4 7\"/><path d=\"M20 12L4 12\"/><path d=\"M20 17L4 17\"/></g>"},"arrow-right-linear":{"body":"<path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M4 12H20M14 18L20 12L14 6\"/>"}}}];

@@ -1,0 +1,31 @@
+@import './layout.css';
+@import './sections.css';
+
+:root {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #2e2926;
+  background: #f5f2ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --paper: #f5f2ee;
+  --paper-deep: #ebe5dd;
+  --ink: #2e2926;
+  --muted: #746d67;
+  --brown: #6d594e;
+  --brown-dark: #302720;
+  --brown-light: #b4a195;
+  --line: rgba(71, 57, 48, .18);
+  --serif: 'Playfair Display', Georgia, serif;
+  --brand-seal-line: var(--paper);
+  --brand-seal-mark: var(--brown);
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; overflow-x: clip; }
+button, a { font: inherit; }
+a { color: inherit; text-decoration: none; }
+button { color: inherit; }
+::selection { color: var(--paper); background: var(--brown); }
